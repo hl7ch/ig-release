@@ -1,1 +1,0 @@
-Note: feedback is most welcome and should be directed to the danish affiliate's github repository (https://github.com/hl7dk/dk-core/).

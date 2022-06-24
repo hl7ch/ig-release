@@ -1,0 +1,1 @@
+java -jar publisher.jar -go-publish -source ch-core -destination %CD%\web-root-ch-core -registry ig-registry/fhir-ig-list.json -history ig-history -milestone

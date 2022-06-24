@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-core-organization"/>
+    <url value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"/>
+    <version value="2.0.0"/>
+    <name value="CHCoreOrganization"/>
+    <title value="CH Core Organization"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2019-04-13T00:00:00+00:00"/>
+    <publisher value="HL7 Switzerland"/>
+    <contact>
+        <name value="HL7 Switzerland"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.hl7.ch/"/>
+        </telecom>
+    </contact>
+    <description value="Defines basic constraints and extensions on the Organization resource for use with other CH Core resources"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <mapping>
+        <identity value="CDA-CH-V2"/>
+        <uri value="http://e-health-wiki.ch/index.php/Ehscda:CDA-CH_2017_(specification)"/>
+        <name value="CDA-CH 2020 V2.1"/>
+    </mapping>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Organization"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Organization">
+            <path value="Organization"/>
+            <short value="CH Core Organization"/>
+            <mapping>
+                <identity value="CDA-CH-V2"/>
+                <map value="hl7:author (1..*) / hl7:assignedAuthor (1..1) / hl7:representedOrganization (0..1)"/>
+            </mapping>
+        </element>
+        <element id="Organization.identifier">
+            <path value="Organization.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="pattern" />
+                    <path value="$this" />
+                </discriminator>
+                <rules value="open" />
+            </slicing>
+        </element>
+
+        <element id="Organization.identifier:BER">
+            <path value="Organization.identifier" />
+            <sliceName value="BER" />
+            <short value="BER (Business and Enterprise Register)" />
+            <definition value="BER (Business and Enterprise Register)" />
+            <max value="1" />
+            <patternIdentifier>
+                <system value="urn:oid:2.16.756.5.45" />
+            </patternIdentifier>
+        </element>
+        <element id="Organization.identifier:BER.value">
+            <path value="Organization.identifier.value" />
+            <short value="BER of the organization" />
+            <definition value="BER of the organization"/>
+            <min value="1" />
+        </element>
+
+        <element id="Organization.identifier:UIDB">
+            <path value="Organization.identifier" />
+            <sliceName value="UIDB" />
+            <short value="Unique IDentification Business (UIDB)" />
+            <definition value="Unique IDentification Business (UIDB)" />
+            <max value="1" />
+            <patternIdentifier>
+                <system value="urn:oid:2.16.756.5.35" />
+            </patternIdentifier>
+        </element>
+        <element id="Organization.identifier:UIDB.value">
+            <path value="Organization.identifier.value" />
+            <short value="UIDB of the Organization" />
+            <definition value="UIDB of the Organization" />
+            <min value="1" />
+        </element>
+
+        <element id="Organization.identifier:ZSR">
+            <path value="Organization.identifier" />
+            <sliceName value="ZSR" />
+            <short value="Zahlstellenregister (ZSR)" />
+            <definition value="Zahlstellenregister (ZSR)" />
+            <max value="1" />
+            <patternIdentifier>
+                <system value="urn:oid:2.16.756.5.30.1.123.100.2.1.1" />
+            </patternIdentifier>
+        </element>
+        <element id="Organization.identifier:ZSR.value">
+            <path value="Organization.identifier.value" />
+            <short value="ZSR of the Organization" />
+            <definition value="ZSR of the Organization" />
+            <min value="1" />
+        </element>
+
+        <element id="Organization.identifier:GLN">
+            <path value="Organization.identifier" />
+            <sliceName value="GLN" />
+            <short value="Global Location Number (GLN)" />
+            <definition value="Global Location Number (GLN)" />
+            <max value="1" />
+            <type>
+                <code value="Identifier"/>
+                <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-gln-identifier"/>
+            </type>
+            <patternIdentifier>
+                <system value="urn:oid:2.51.1.3" />
+            </patternIdentifier>
+        </element>
+
+        <element id="Organization.type">
+            <path value="Organization.type"/>
+            <binding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+                    <valueString value="OrganizationType"/>
+                </extension>
+                <strength value="preferred"/>
+                <description value="Used to categorize the organization."/>
+                <valueSet value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.healthcareFacilityTypeCode"/>
+            </binding>
+        </element>
+        <element id="Organization.name">
+            <path value="Organization.name"/>
+        </element>
+        <element id="Organization.telecom">
+            <path value="Organization.telecom"/>
+        </element>
+        <element id="Organization.address">
+            <path value="Organization.address"/>
+            <type>
+                <code value="Address"/>
+                <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-address" />
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>
