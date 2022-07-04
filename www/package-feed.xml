@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fhir="http://hl7.org/fhir/feed" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>HL7 Switzerland FHIR Packages</title>
+    <description>New Packages published by HL7 Switzerland></description>
+    <link>http://fhir.ch/ig/ch-core/package-feed.xml</link>
+    <generator>HL7, Inc FHIR Publication tooling</generator>
+    <lastBuildDate>Mon, 04 Jul 2022 09:40:01 GMT</lastBuildDate>
+    <atom:link href="http://fhir.ch/ig/ch-core/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Jul 2022 09:40:01</pubDate>
+    <language>en></language>
+    <ttl>600</ttl>
+  </channel>
+</rss>

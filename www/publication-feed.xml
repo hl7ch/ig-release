@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fhir="http://hl7.org/fhir/feed" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>HL7 Switzerland FHIR Publications</title>
+    <description>New publications by HL7 Switzerland></description>
+    <link>http://fhir.ch/ig/ch-core/package-feed.xml</link>
+    <generator>HL7, Inc FHIR Publication tooling</generator>
+    <lastBuildDate>Mon, 04 Jul 2022 09:40:01 GMT</lastBuildDate>
+    <atom:link href="http://fhir.ch/ig/ch-core/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Jul 2022 09:40:01</pubDate>
+    <language>en></language>
+    <ttl>600</ttl>
+    <item>
+      <title>CH Core (R4)</title>
+      <description>HL7 Switzerland STU 3 Ballot</description>
+      <link>http://fhir.ch/ig/ch-core/2.1.0/index.html</link>
+      <guid isPermaLink="true">http://fhir.ch/ig/ch-core/2.1.0/index.html</guid>
+      <dc:creator>HL7 Switzerland</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Mon, 04 Jul 2022 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CH Core (R4)</title>
+      <description>HL7 Switzerland STU 2</description>
+      <link>http://fhir.ch/ig/ch-core/2.0.0/index.html</link>
+      <guid isPermaLink="true">http://fhir.ch/ig/ch-core/2.0.0/index.html</guid>
+      <dc:creator>HL7 Switzerland</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Sat, 24 Apr 2021 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CH Core (R4)</title>
+      <description>HL7 Switzerland STU 2 Ballot</description>
+      <link>http://fhir.ch/ig/ch-core/1.2.0/index.html</link>
+      <guid isPermaLink="true">http://fhir.ch/ig/ch-core/1.2.0/index.html</guid>
+      <dc:creator>HL7 Switzerland</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Fri, 12 Feb 2021 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CH Core (R4)</title>
+      <description>HL7 Switzerland STU 1 Final Publication</description>
+      <link>http://fhir.ch/ig/ch-core/1.0.0/index.html</link>
+      <guid isPermaLink="true">http://fhir.ch/ig/ch-core/1.0.0/index.html</guid>
+      <dc:creator>HL7 Switzerland</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Tue, 21 Apr 2020 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CH Core (R4)</title>
+      <description>HL7 Switzerland STU 1 Ballot</description>
+      <link>http://fhir.ch/ig/ch-core/0.1.0/index.html</link>
+      <guid isPermaLink="true">http://fhir.ch/ig/ch-core/0.1.0/index.html</guid>
+      <dc:creator>HL7 Switzerland</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Fri, 14 Feb 2020 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -11,6 +11,7 @@
   <link href="fhir.css" rel="stylesheet"/>
 
    <!-- Bootstrap core CSS -->
+  <link href="dist-hist/css/bootstrap.css" rel="stylesheet"/>
   <link href="assets-hist/css/bootstrap-fhir.css" rel="stylesheet"/>
 
   <!-- Project extras -->
@@ -47,11 +48,7 @@
 
  <div id="segment-header" class="segment">  <!-- segment-header -->
   <div class="container">  <!-- container -->
-  <div id="project-nav">
-          <a no-external="true" id="hl7-logo" href="https://hl7-belgium.org">
-            <img src="assets/images/hl7be-logo-header.png" alt="HL7 Belgium" height="65"/>
-          </a>
-  </div>
+  
   <div id="fhir-nav">
     <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/>
     </a>
@@ -162,7 +159,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="./assets-hist/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-<script src="./assets-hist/js/bootstrap.min.js"> </script>
+<script src="./dist-hist/js/bootstrap.min.js"> </script>
 <script src="./assets-hist/js/respond.min.js"> </script>
 
 <script src="./assets-hist/js/fhir.js"> </script>
