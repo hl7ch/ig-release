@@ -27,9 +27,9 @@ Note: The title and the parameter release label are displayed at the top of the 
 
 3. Verify that the current version of the implementation guide is working in the CI build, check http://build.fhir.org/ig/\[githubrepo\]/\[igxyz\]/index.html.
 
-4. Download the new version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag:
+4. Download the patched version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag:
 ```
-wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O publisher.jar
+wget https://github.com/hl7ch/ig-release/releases/tag/v1.2.2-patch/publisher.jar -O publisher.jar
 ```
 
 5. Run the IG Publisher assuming that your ig is on the same directory level as this project (e.g. for ch-core)
