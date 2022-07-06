@@ -47,7 +47,9 @@ java -Xms3550m -Xmx3550m -jar publisher.jar -go-publish -source $PWD/../[igxyz] 
 ```
 gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]
 gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]/[version]
+gsutil rsync -r www/[igxyz]/package-list.json gs://fhir-ch-www/ig/[igxyz]
 ```
+(Windows: upload package-list.json manually)
 
 8. Check the outputs, it might take a while due to caching issues:
 * http://fhir.ch/ig/[igxyz]/index.html
