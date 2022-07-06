@@ -9,7 +9,7 @@ Background info see [HL7 Process for Publishing a FHIR IG](https://confluence.hl
 * The **status** of the publication
 * Note the spelling of **fhirversion** (lower case 'v')
 * Make sure there is a **category**
-* canonical needs to include the version number
+* **path**: canonical needs to include the version number
 
 2. Update the ig-file **ch.fhir.ig.[igxyz].xml** in folder input.   
 Note: The title and the parameter release label are displayed at the top of the published website.
@@ -38,22 +38,22 @@ wget https://github.com/hl7ch/ig-release/releases/download/v1.2.2-patch/publishe
 url=http://fhir.ch/ig/[igxyz]
 ```
 
-5. Run the IG Publisher assuming that your ig is on the same directory level as this project (e.g. replace [igxyz] with ch.core)
+6. Run the IG Publisher assuming that your ig is on the same directory level as this project (e.g. replace [igxyz] with ch.core)
 ```
 java -Xms3550m -Xmx3550m -jar publisher.jar -go-publish -source $PWD/../[igxyz] -destination $PWD/www -registry ig-registry/fhir-ig-list.json -history ig-history
 ```
 
-6.  For every IG publication:
+7.  For every IG publication:
 ```
-gsutil rsync -r www/[igxyz]/version gs://fhir-ch-www/[igxyz]
-gsutil rsync -r www/[igxyz]/version gs://fhir-ch-www/[igxyz]/version
+gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]
+gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]/[version]
 ```
 
-7. Check the outputs, it might take a while due to caching issues:
+8. Check the outputs, it might take a while due to caching issues:
 * http://fhir.ch/ig/[igxyz]/index.html
 * http://fhir.ch/ig/[igxyz]/[version]/index.html
 
-8. Set a [tag in GitHub](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [create a release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release)
+9. Set a [tag in GitHub](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [create a release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release)
 ```
 git tag -a v0.1.0 -m "published version 0.1.0 on yyyy-mm-dd"
 ```
@@ -61,7 +61,7 @@ git tag -a v0.1.0 -m "published version 0.1.0 on yyyy-mm-dd"
 git push origin v0.1.0
 ```
 
-9. Update fhir.ch and package registry
+10. Update fhir.ch and package registry
 * If the published IG is not yet linked on [fhir.ch](http://fhir.ch/), add the requested links in the file fhir-ch\index.html.
 * To be able to specify the IG's package for [validation](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator#UsingtheFHIRValidator-Validatingagainstanimplementationguide), the IG package must be added to the [FHIR package registry](https://registry.fhir.org/). To do this update the file fhir-ch\package-feed.xml ([validation feed](https://validator.w3.org/feed/)), see also [here](https://registry.fhir.org/submit). You can take the
 entry from www\package-feed.xml, please be sure to add the package version to it.
