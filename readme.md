@@ -3,7 +3,7 @@
 Background info see [HL7 Process for Publishing a FHIR IG](https://confluence.hl7.org/display/FHIR/HL7+Process+for+Publishing+a+FHIR+IG).
 
 
-1. Add or update the file **package-list.json** in ig root folder (https://confluence.hl7.org/display/FHIR/FHIR+IG+PackageList+doco).
+1. Add or update the file **package-list.json** in IG root folder (https://confluence.hl7.org/display/FHIR/FHIR+IG+PackageList+doco).
 * `"current": true` if this version should be listed in the current versions summary at the top of the history page. True for the **CI-Build**, and the **version currently posted** to the canonical URL
 * CI-Build (first entry): `"version" : "current"`
 * The **status** of the publication
@@ -38,7 +38,7 @@ wget https://github.com/hl7ch/ig-release/releases/download/v1.2.2-patch/publishe
 url=http://fhir.ch/ig/[igxyz]
 ```
 
-6. Run the IG Publisher assuming that your ig is on the same directory level as this project (e.g. replace [igxyz] with ch.core)
+6. Run the IG Publisher assuming that your IG is on the same directory level as this project (e.g. replace [igxyz] with ch-core or use the corresponding .cmd or .sh)
 ```
 java -Xms3550m -Xmx3550m -jar publisher.jar -go-publish -source $PWD/../[igxyz] -destination $PWD/www -registry ig-registry/fhir-ig-list.json -history ig-history
 ```
