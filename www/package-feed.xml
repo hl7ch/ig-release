@@ -5,9 +5,9 @@
     <description>New Packages published by HL7 Switzerland></description>
     <link>http://fhir.ch/ig/ch-core/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
-    <lastBuildDate>Mon, 04 Jul 2022 09:40:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jul 2022 03:01:27 GMT</lastBuildDate>
     <atom:link href="http://fhir.ch/ig/ch-core/package-feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jul 2022 09:40:01</pubDate>
+    <pubDate>Wed, 06 Jul 2022 03:01:27</pubDate>
     <language>en></language>
     <ttl>600</ttl>
   </channel>
