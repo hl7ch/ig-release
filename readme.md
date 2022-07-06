@@ -49,7 +49,7 @@ gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]
 gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]/[version]
 gsutil rsync -r www/[igxyz]/history.html gs://fhir-ch-www/ig/[igxyz]
 ```
-Update history.html manually: `"current": true"` for ci/first entry
+Update history.html manually: `"current": true"` for ci/first entry   
 Windows: upload history.html manually
 
 8. Check the outputs, it might take a while due to caching issues:
