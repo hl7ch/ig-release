@@ -3,7 +3,7 @@
 Background info see [HL7 Process for Publishing a FHIR IG](https://confluence.hl7.org/display/FHIR/HL7+Process+for+Publishing+a+FHIR+IG).
 
 
-1. Add or update the file **package-list.json** in folder www (https://confluence.hl7.org/display/FHIR/FHIR+IG+PackageList+doco).
+1. Add or update the file **package-list.json** in ig root folder (https://confluence.hl7.org/display/FHIR/FHIR+IG+PackageList+doco).
 * `"current": true` if this version should be listed in the current versions summary at the top of the history page. True for the **CI-Build**, and the **version currently posted** to the canonical URL
 * CI-Build (first entry): `"version" : "current"`
 * The **status** of the publication
@@ -29,17 +29,24 @@ Note: The title and the parameter release label are displayed at the top of the 
 
 4. Download the patched version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag:
 ```
-wget https://github.com/hl7ch/ig-release/releases/tag/v1.2.2-patch/publisher.jar -O publisher.jar
+wget https://github.com/hl7ch/ig-release/releases/download/v1.2.2-patch/publisher.jar -o publisher.jar
 ```
 
-5. Run the IG Publisher assuming that your ig is on the same directory level as this project (e.g. for ch-core)
+5. Adjust in publish.ini the path to the ig
+
 ```
-java -Xms3550m -Xmx3550m -jar publisher.jar -go-publish -source $PWD/../ch-core -destination $PWD/www -registry ig-registry/fhir-ig-list.json -history ig-history
+url=http://fhir.ch/ig/[igxyz]
+```
+
+5. Run the IG Publisher assuming that your ig is on the same directory level as this project (e.g. replace [igxyz] with ch.core)
+```
+java -Xms3550m -Xmx3550m -jar publisher.jar -go-publish -source $PWD/../[igxyz] -destination $PWD/www -registry ig-registry/fhir-ig-list.json -history ig-history
 ```
 
 6.  For every IG publication:
 ```
-gsutil rsync -r www/[igxyz] gs://fhir-ch-www/ig/[igxyz]
+gsutil rsync -r www/[igxyz]/version gs://fhir-ch-www/[igxyz]
+gsutil rsync -r www/[igxyz]/version gs://fhir-ch-www/[igxyz]/version
 ```
 
 7. Check the outputs, it might take a while due to caching issues:
