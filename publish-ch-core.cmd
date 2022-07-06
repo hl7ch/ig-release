@@ -1,1 +1,1 @@
-java -jar publisher.jar -go-publish -source %CD%\..\ch-core -destination %CD%\wwww -registry ig-registry/fhir-ig-list.json -history ig-history
+java -jar publisher.jar -go-publish -source %CD%\..\ch-core -destination %CD%\www -registry ig-registry/fhir-ig-list.json -history ig-history
