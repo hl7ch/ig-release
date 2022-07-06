@@ -47,9 +47,10 @@ java -Xms3550m -Xmx3550m -jar publisher.jar -go-publish -source $PWD/../[igxyz] 
 ```
 gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]
 gsutil rsync -r www/[igxyz]/[version] gs://fhir-ch-www/ig/[igxyz]/[version]
-gsutil rsync -r www/[igxyz]/package-list.json gs://fhir-ch-www/ig/[igxyz]
+gsutil rsync -r www/[igxyz]/history.html gs://fhir-ch-www/ig/[igxyz]
 ```
-(Windows: upload package-list.json manually)
+Update history.html manually: `"current": true"` for ci/first entry
+Windows: upload history.html manually
 
 8. Check the outputs, it might take a while due to caching issues:
 * http://fhir.ch/ig/[igxyz]/index.html
