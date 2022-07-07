@@ -1,0 +1,1 @@
+java -jar publisher.jar -go-publish -source %CD%\..\ch-epr-mhealth -destination %CD%\www -registry ig-registry/fhir-ig-list.json -history ig-history
