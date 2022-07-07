@@ -65,6 +65,5 @@ git push origin v0.1.0
 ```
 
 10. Update fhir.ch and package registry
-* If the published IG is not yet linked on [fhir.ch](http://fhir.ch/), add the requested links in the file fhir-ch\index.html.
-* To be able to specify the IG's package for [validation](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator#UsingtheFHIRValidator-Validatingagainstanimplementationguide), the IG package must be added to the [FHIR package registry](https://registry.fhir.org/). To do this update the file fhir-ch\package-feed.xml ([validation feed](https://validator.w3.org/feed/)), see also [here](https://registry.fhir.org/submit). You can take the
-entry from www\package-feed.xml, please be sure to add the package version to it.
+* If the published IG is not yet linked on [fhir.ch](http://fhir.ch/), add the requested links in the file **k8s-fhir.ch\fhir-ch\index.html**.
+* To be able to specify the IG's package for [validation](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator#UsingtheFHIRValidator-Validatingagainstanimplementationguide), the IG package must be added to the [FHIR package registry](https://registry.fhir.org/). To do this update the file **ig-release\www\package-feed.xml** ([validate your feed](https://validator.w3.org/feed/)), see also [here](https://registry.fhir.org/submit). You can take the entry from www\publication-feed.xml and adapt it according to the existing ones, please be sure to add the package version to it.
