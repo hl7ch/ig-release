@@ -2380,16 +2380,70 @@
       "country": "ch",
       "history": "http://fhir.ch/ig/ch-emed/history.html",
       "canonical": "http://fhir.ch/ig/ch-emed",
-      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-emed/index.html",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-emed",
       "editions": [
         {
-          "name": "DSTU",
+          "name": "STU 3",
+          "ig-version": "2.1.0",
+          "package": "ch.fhir.ig.ch-emed#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-emed/2.1.0"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.ch-emed#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-emed/2.0.0"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "1.0.0",
+          "package": "ch.fhir.ig.ch-emed#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-emed/1.0.0"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "ch.fhir.ig.ch-emed#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-emed/1.0.0"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "0.2.0",
+          "package": "ch.fhir.ig.ch-emed#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-emed/0.2.0"
+        },
+        {
+          "name": "DSTU 1",
           "ig-version": "0.1.1",
           "package": "ch.fhir.ig.ch-emed#0.1.1",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://fhir.ch/ig/ch-emed/0.1.1"
+        },
+        {
+          "name": "DSTU 1",
+          "ig-version": "0.1.0",
+          "package": "ch.fhir.ig.ch-emed#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-emed/0.1.0"
         }
       ]
     },
@@ -4016,6 +4070,58 @@
       "canonical": "http://hl7belgium.org/profiles/fhir/core",
       "ci-build": "http://localhost",
       "editions": []
+    },
+    {
+      "name": "CH VACD (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-vacd",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-vacd/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-vacd",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-vacd",
+      "editions": [
+        {
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.ch-vacd#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-vacd/2.0.0"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "1.0.0",
+          "package": "ch.fhir.ig.ch-vacd#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-vacd/1.0.0"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "ch.fhir.ig.ch-vacd#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-vacd/1.0.0"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "0.1.0",
+          "package": "ch.fhir.ig.ch-vacd#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-vacd/0.1.0"
+        }
+      ]
     }
   ]
 }

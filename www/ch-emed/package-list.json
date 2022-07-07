@@ -1,4 +1,4 @@
-{
+﻿{
   "package-id": "ch.fhir.ig.ch-emed",
   "title": "CH EMED (R4)",
   "category": "National Base",
@@ -13,13 +13,24 @@
       "current": true
     },
     {
+      "version": "2.1.0",
+      "desc": "HL7 Switzerland STU 3 Ballot",
+      "path": "http://fhir.ch/ig/ch-emed/2.1.0",
+      "status": "trial-use",
+      "sequence": "STU 3",
+      "fhirversion": "4.0.1",
+      "date": "2022-07-07",
+      "current": true
+    },
+    {
       "version": "2.0.0",
       "date": "2022-02-11",
       "desc": "HL7 Switzerland STU 2",
       "path": "http://fhir.ch/ig/ch-emed/2.0.0",
       "status": "trial-use",
-      "sequence" : "STU 2",
-      "fhirversion": "4.0.1"
+      "sequence": "STU 2",
+      "fhirversion": "4.0.1",
+      "current": true
     },
     {
       "version": "1.0.0",
@@ -27,7 +38,7 @@
       "desc": "HL7 Switzerland STU 2 Ballot",
       "path": "http://fhir.ch/ig/ch-emed/1.0.0",
       "status": "trial-use",
-      "sequence" : "STU 2",
+      "sequence": "STU 2",
       "fhirversion": "4.0.1"
     },
     {
@@ -36,7 +47,7 @@
       "desc": "eHealth Suisse STU 1",
       "path": "http://fhir.ch/ig/ch-emed/1.0.0",
       "status": "trial-use",
-      "sequence" : "STU 1",
+      "sequence": "STU 1",
       "fhirversion": "4.0.1"
     },
     {
@@ -45,7 +56,7 @@
       "desc": "eHealth Suisse STU 1 Informative Ballot",
       "path": "http://fhir.ch/ig/ch-emed/0.2.0",
       "status": "trial-use",
-      "sequence" : "STU 1",
+      "sequence": "STU 1",
       "fhirversion": "4.0.1"
     },
     {
@@ -54,7 +65,7 @@
       "desc": "eHealth Suisse DSTU 1",
       "path": "http://fhir.ch/ig/ch-emed/0.1.1",
       "status": "trial-use",
-      "sequence" : "DSTU 1",
+      "sequence": "DSTU 1",
       "fhirversion": "4.0.1"
     },
     {
@@ -63,7 +74,7 @@
       "desc": "eHealth Suisse DSTU 1",
       "path": "http://fhir.ch/ig/ch-emed/0.1.0",
       "status": "trial-use",
-      "sequence" : "DSTU 1",
+      "sequence": "DSTU 1",
       "fhirversion": "4.0.1"
     }
   ]
