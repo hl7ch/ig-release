@@ -1,0 +1,1 @@
+java -jar publisher.jar -go-publish -source %CD%\..\ch-vacd -destination %CD%\www -registry ig-registry/fhir-ig-list.json -history ig-history

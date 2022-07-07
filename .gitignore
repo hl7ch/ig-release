@@ -8,3 +8,7 @@ www/ch-core/**
 www/ch-emed/2.1.0/**
 www/ch-emed/**
 !www/ch-emed/package-list.json
+
+www/ch-vacd/2.1.0/**
+www/ch-vacd/**
+!www/ch-vacd/package-list.json
