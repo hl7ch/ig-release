@@ -3,11 +3,11 @@
   <channel>
     <title>HL7 Switzerland FHIR Publications</title>
     <description>New publications by HL7 Switzerland></description>
-    <link>http://fhir.ch/ig/ch-emed/package-feed.xml</link>
+    <link>http://fhir.ch/ig/ch-vacd/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
-    <lastBuildDate>Thu, 07 Jul 2022 10:20:59 GMT</lastBuildDate>
-    <atom:link href="http://fhir.ch/ig/ch-emed/package-feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jul 2022 10:20:59</pubDate>
+    <lastBuildDate>Thu, 07 Jul 2022 12:03:14 GMT</lastBuildDate>
+    <atom:link href="http://fhir.ch/ig/ch-vacd/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 07 Jul 2022 12:03:14</pubDate>
     <language>en></language>
     <ttl>600</ttl>
     <item>
@@ -15,6 +15,16 @@
       <description>HL7 Switzerland STU 3 Ballot</description>
       <link>http://fhir.ch/ig/ch-emed/2.1.0/index.html</link>
       <guid isPermaLink="true">http://fhir.ch/ig/ch-emed/2.1.0/index.html</guid>
+      <dc:creator>HL7 Switzerland</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Thu, 07 Jul 2022 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CH VACD (R4)</title>
+      <description>HL7 Switzerland STU 3 Ballot</description>
+      <link>http://fhir.ch/ig/ch-vacd/2.1.0/index.html</link>
+      <guid isPermaLink="true">http://fhir.ch/ig/ch-vacd/2.1.0/index.html</guid>
       <dc:creator>HL7 Switzerland</dc:creator>
       <fhir:version>4.0.1</fhir:version>
       <fhir:kind>IG</fhir:kind>
