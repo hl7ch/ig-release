@@ -1,4 +1,4 @@
-{
+﻿{
   "package-id": "ch.fhir.ig.ch-epr-mhealth",
   "title": "CH EPR mHealth (R4)",
   "category": "National Base",
@@ -13,12 +13,22 @@
       "current": true
     },
     {
+      "version": "1.1.0",
+      "desc": "HL7 Switzerland Informative Ballot DSTU 2",
+      "path": "http://fhir.ch/ig/ch-epr-mhealth/1.1.0",
+      "status": "trial-use",
+      "sequence": "DSTU 2",
+      "fhirversion": "4.0.1",
+      "date": "2022-07-07",
+      "current": true
+    },
+    {
       "version": "1.0.0",
       "date": "2021-12-22",
       "desc": "eHealth Suisse DSTU 1",
       "path": "http://fhir.ch/ig/ch-epr-mhealth/1.0.0",
       "status": "trial-use",
-      "sequence" : "DSTU 1",
+      "sequence": "DSTU 1",
       "fhirversion": "4.0.1"
     },
     {
@@ -27,7 +37,7 @@
       "desc": "HL7 Switzerland Informative Ballot",
       "path": "http://fhir.ch/ig/ch-epr-mhealth/0.2.0",
       "status": "trial-use",
-      "sequence" : "DSTU 1",
+      "sequence": "DSTU 1",
       "fhirversion": "4.0.1"
     },
     {
@@ -36,7 +46,7 @@
       "desc": "eHealth Suisse DSTU 1",
       "path": "http://fhir.ch/ig/ch-epr-mhealth/0.1.2",
       "status": "trial-use",
-      "sequence" : "DSTU 1",
+      "sequence": "DSTU 1",
       "fhirversion": "4.0.1"
     },
     {
@@ -45,7 +55,7 @@
       "desc": "eHealth Suisse DSTU 1",
       "path": "http://fhir.ch/ig/ch-epr-mhealth/0.1.1",
       "status": "trial-use",
-      "sequence" : "DSTU 1",
+      "sequence": "DSTU 1",
       "fhirversion": "4.0.1"
     },
     {
@@ -54,7 +64,7 @@
       "desc": "eHealth Suisse DSTU 1",
       "path": "http://fhir.ch/ig/ch-epr-mhealth/0.1.0",
       "status": "trial-use",
-      "sequence" : "DSTU 1",
+      "sequence": "DSTU 1",
       "fhirversion": "4.0.1"
     }
   ]

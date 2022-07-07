@@ -8,9 +8,9 @@
 		<description>New Packages published by HL7 Switzerland</description>
 		<link>http://fhir.ch/package-feed.xml</link>
 		<generator>HL7 Switzerland FHIR Publication tooling</generator>
-		<lastBuildDate>Thu, 07 Jul 2022 12:00:00 GMT</lastBuildDate>
+		<lastBuildDate>Thu, 07 Jul 2022 11:00:00 GMT</lastBuildDate>
 		<atom:link href="http://fhir.ch/package-feed.xml" rel="self" type="application/rss+xml"/>
-		<pubDate>Thu, 07 Jul 2022 12:00:00 GMT</pubDate>
+		<pubDate>Thu, 07 Jul 2022 11:00:00 GMT</pubDate>
 		<language>en</language>
 		<ttl>600</ttl>
 		<item>
@@ -252,6 +252,16 @@
 		</item>
 		<!--  CH EPR mHealth (R4)  -->
 		<item>
+			<title>ch.fhir.ig.ch-epr-mhealth#1.1.0</title>
+			<description>Implementation Guide for the Mobile access to Health Documents (epr-mhealth) Profile for the Swiss EPR (built Wed, Dec 22, 2021)</description>
+			<link>http://fhir.ch/ig/ch-epr-mhealth/1.1.0/package.tgz</link>
+			<guid isPermaLink="true">http://fhir.ch/ig/ch-epr-mhealth/1.1.0/package.tgz</guid>
+			<dc:creator>eHealth Suisse</dc:creator>
+			<fhir:version>4.0.1</fhir:version>
+			<fhir:kind>IG</fhir:kind>
+			<pubDate>Thu, 07 Jul 2022 11:00:00 GMT</pubDate>
+		</item>
+		<item>
 			<title>ch.fhir.ig.ch-epr-mhealth#1.0.0</title>
 			<description>Implementation Guide for the Mobile access to Health Documents (epr-mhealth) Profile for the Swiss EPR (built Wed, Dec 22, 2021)</description>
 			<link>http://fhir.ch/ig/ch-epr-mhealth/1.0.0/package.tgz</link>
@@ -331,7 +341,7 @@
 			<dc:creator>HL7 Switzerland</dc:creator>
 			<fhir:version>4.0.1</fhir:version>
 			<fhir:kind>IG</fhir:kind>
-			<pubDate>Thu, 07 Jul 2022 12:00:00 GMT</pubDate>
+			<pubDate>Thu, 07 Jul 2022 11:00:00 GMT</pubDate>
 		</item>
 		<item>
 			<title>ch.fhir.ig.ch-emed#2.0.0</title>
@@ -444,7 +454,7 @@
 			<dc:creator>HL7 Switzerland</dc:creator>
 			<fhir:version>4.0.1</fhir:version>
 			<fhir:kind>IG</fhir:kind>
-			<pubDate>Thu, 07 Jul 2022 12:00:00 GMT</pubDate>
+			<pubDate>Thu, 07 Jul 2022 11:00:00 GMT</pubDate>
 		</item>
 		<item>
 			<title>ch.fhir.ig.ch-vacd#2.0.0</title>
