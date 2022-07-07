@@ -1,5 +1,10 @@
 publisher.jar
 www/ig-build-zips/**
+
 www/ch-core/2.1.0/**
 www/ch-core/**
 !www/ch-core/package-list.json
+
+www/ch-emed/2.1.0/**
+www/ch-emed/**
+!www/ch-emed/package-list.json
