@@ -1,6 +1,6 @@
 # Publish an implementation guide ch-xyz with a version (eg 0.1.0)
 
-Background info see [HL7 Process for Publishing a FHIR IG](https://confluence.hl7.org/display/FHIR/HL7+Process+for+Publishing+a+FHIR+IG).
+Background info see [Process for Publishing a FHIR Implementation Guide (for non-HL7 IGs)](https://confluence.hl7.org/pages/viewpage.action?pageId=104580055).
 
 
 ## Repo ch-xyz (implementation guide)
