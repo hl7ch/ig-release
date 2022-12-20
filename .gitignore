@@ -16,3 +16,7 @@ www/ch-vacd/**
 www/ch-epr-mhealth/1.1.0/**
 www/ch-epr-mhealth/**
 !www/ch-epr-mhealth/package-list.json
+
+www/ch-epr-term/2.0.8/**
+www/ch-epr-term/**
+!www/ch-epr-term/package-list.json
