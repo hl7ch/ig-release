@@ -12,7 +12,7 @@ Background info see [Process for Publishing a FHIR Implementation Guide (for non
 * Make sure there is a **category**
 * **path**: canonical needs to include the version number
 
-2. Update the ig-file **ch.fhir.ig.[ch-xyz].xml**7**sushi-config.yaml**.   
+2. Update the ig-file **ch.fhir.ig.[ch-xyz].xml** or **sushi-config.yaml**.   
 Note: The title and the parameter release label are displayed at the top of the published website.
 * `<version value="0.1.0"/>`
 * `<date value="2020-08-24"/>`
