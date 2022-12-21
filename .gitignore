@@ -1,22 +1,25 @@
 publisher.jar
 www/ig-build-zips/**
+www/publication-request.json
 
-www/ch-core/2.1.0/**
 www/ch-core/**
 !www/ch-core/package-list.json
+!www/ch-core/publish.ini
 
-www/ch-emed/2.1.0/**
 www/ch-emed/**
 !www/ch-emed/package-list.json
+!www/ch-emed/publish.ini
 
-www/ch-vacd/2.1.0/**
 www/ch-vacd/**
 !www/ch-vacd/package-list.json
+!www/ch-vacd/publish.ini
 
-www/ch-epr-mhealth/1.1.0/**
 www/ch-epr-mhealth/**
 !www/ch-epr-mhealth/package-list.json
+!www/ch-epr-mhealth/publish.ini
 
-www/ch-epr-term/2.0.8/**
 www/ch-epr-term/**
 !www/ch-epr-term/package-list.json
+!www/ch-epr-term/publish.ini
+
+temp/**
