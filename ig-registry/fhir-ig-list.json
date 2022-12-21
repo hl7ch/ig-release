@@ -2176,6 +2176,15 @@
       "editions": [
         {
           "name": "STU 3",
+          "ig-version": "3.0.0",
+          "package": "ch.fhir.ig.ch-core#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-core/3.0.0"
+        },
+        {
+          "name": "STU 3",
           "ig-version": "2.1.0",
           "package": "ch.fhir.ig.ch-core#2.1.0",
           "fhir-version": [
