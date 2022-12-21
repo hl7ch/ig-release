@@ -8,9 +8,9 @@
 		<description>New Packages published by HL7 Switzerland</description>
 		<link>http://fhir.ch/package-feed.xml</link>
 		<generator>HL7 Switzerland FHIR Publication tooling</generator>
-		<lastBuildDate>Thu, 07 Jul 2022 11:00:00 GMT</lastBuildDate>
+		<lastBuildDate>Wed, 21 Dec 2022 12:00:00 +0100 GMT</lastBuildDate>
 		<atom:link href="http://fhir.ch/package-feed.xml" rel="self" type="application/rss+xml"/>
-		<pubDate>Thu, 07 Jul 2022 11:00:00 GMT</pubDate>
+		<pubDate>Wed, 21 Dec 2022 12:00:00 +0100 GMT</pubDate>
 		<language>en</language>
 		<ttl>600</ttl>
 		<item>
@@ -75,6 +75,16 @@
 			<pubDate>Fri, 14 Feb 2020 12:00:00 GMT</pubDate>
 		</item>
 		<!--  CH EPR Term (R4)  -->
+		<item>
+			<title>ch.fhir.ig.ch-epr-term#2.0.8</title>
+			<description>Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland (built Wed, Dec 21, 2022 08:03+0100+01:00)</description>
+			<link>http://fhir.ch/ig/ch-epr-term/2.0.8/package.tgz</link>
+			<guid isPermaLink="true">http://fhir.ch/ig/ch-epr-term/2.0.8/package.tgz</guid>
+			<dc:creator>HL7 Switzerland</dc:creator>
+			<fhir:version>4.0.1</fhir:version>
+			<fhir:kind>IG</fhir:kind>
+			<pubDate>Wed, 21 Dec 2022 12:00:00 +0100 GMT</pubDate>
+		</item>
 		<item>
 			<title>ch.fhir.ig.ch-epr-term#2.0.7</title>
 			<description>Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland (built Mon, Jan 31, 2022 10:12+0100+01:00)</description>

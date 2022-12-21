@@ -2252,8 +2252,44 @@
       "country": "ch",
       "history": "http://fhir.ch/ig/ch-epr-term/history.html",
       "canonical": "http://fhir.ch/ig/ch-epr-term",
-      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-epr-term/index.html",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-epr-term",
       "editions": [
+        {
+          "name": "STU",
+          "ig-version": "2.0.8",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.8",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.8"
+        },
+        {
+          "name": "STU",
+          "ig-version": "2.0.7",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.7",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.7"
+        },
+        {
+          "name": "STU",
+          "ig-version": "2.0.6",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.6",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.6"
+        },
+        {
+          "name": "STU",
+          "ig-version": "2.0.5",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.5",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.5"
+        },
         {
           "name": "STU",
           "ig-version": "2.0.4",
@@ -2262,6 +2298,42 @@
             "4.0.1"
           ],
           "url": "http://fhir.ch/ig/ch-epr-term/2.0.4"
+        },
+        {
+          "name": "STU",
+          "ig-version": "2.0.3",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.3",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.3"
+        },
+        {
+          "name": "STU",
+          "ig-version": "2.0.2",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.2"
+        },
+        {
+          "name": "STU",
+          "ig-version": "2.0.1",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.1"
+        },
+        {
+          "name": "STU",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.0",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.0"
         }
       ]
     },
