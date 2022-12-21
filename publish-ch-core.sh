@@ -1,1 +1,1 @@
-java -Xms3550m -Xmx3550m -jar publisher.jar -go-publish -source $PWD/../ch-core -destination $PWD/www -registry ig-registry/fhir-ig-list.json -history ig-history
+java -jar -Xms3550m -Xmx3550m org.hl7.fhir.igtools.publisher.Publisher -go-publish -source /Users/oliveregger/Documents/github/ch-core -destination /Users/oliveregger/Documents/github/ig-release/www -registry  /Users/oliveregger/Documents/github/ig-release/ig-registry/fhir-ig-list.json -history  /Users/oliveregger/Documents/github/ig-release/ig-history -temp /Users/oliveregger/temp
