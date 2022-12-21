@@ -8,9 +8,9 @@
 		<description>New Packages published by HL7 Switzerland</description>
 		<link>http://fhir.ch/package-feed.xml</link>
 		<generator>HL7 Switzerland FHIR Publication tooling</generator>
-		<lastBuildDate>Wed, 21 Dec 2022 09:54:10 +0100 GMT</lastBuildDate>
+		<lastBuildDate>Wed, 21 Dec 2022 01:04:13 +0100 GMT</lastBuildDate>
 		<atom:link href="http://fhir.ch/package-feed.xml" rel="self" type="application/rss+xml"/>
-		<pubDate>Wed, 21 Dec 2022 09:54:10 +0100</pubDate>
+		<pubDate>Wed, 21 Dec 2022 01:04:13 +0100</pubDate>
 		<language>en</language>
 		<ttl>600</ttl>
 		<item>
@@ -353,6 +353,16 @@
 			<pubDate>Fri, 11 Feb 2022 09:00:00 GMT</pubDate>
 		</item>
 		<!--  CH EMED (R4)  -->
+		<item>
+			<title>ch.fhir.ig.ch-emed#3.0.0</title>
+			<description>Implementation Guide for the eMedication in Switzerland. (built Wed, Dec 21, 2022 12:56+0100+01:00)</description>
+			<link>http://fhir.ch/ig/ch-emed/3.0.0/package.tgz</link>
+			<guid isPermaLink="true">http://fhir.ch/ig/ch-emed/3.0.0/package.tgz</guid>
+			<dc:creator>HL7 Switzerland</dc:creator>
+			<fhir:version>4.0.1</fhir:version>
+			<fhir:kind>IG</fhir:kind>
+			<pubDate>Wed, 21 Dec 2022 12:00:00 +0100 GMT</pubDate>
+		</item>
 		<item>
 			<title>ch.fhir.ig.ch-emed#2.1.0</title>
 			<description>Implementation Guide for the eMedication in Switzerland</description>
