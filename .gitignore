@@ -5,21 +5,26 @@ www/publication-request.json
 www/ch-core/**
 !www/ch-core/package-list.json
 !www/ch-core/publish.ini
+!www/ch-core/history.html
 
 www/ch-emed/**
 !www/ch-emed/package-list.json
 !www/ch-emed/publish.ini
+!www/ch-emed/history.html
 
 www/ch-vacd/**
 !www/ch-vacd/package-list.json
 !www/ch-vacd/publish.ini
+!www/ch-vacd/history.html
 
 www/ch-epr-mhealth/**
 !www/ch-epr-mhealth/package-list.json
 !www/ch-epr-mhealth/publish.ini
+!www/ch-epr-mhealth/history.html
 
 www/ch-epr-term/**
 !www/ch-epr-term/package-list.json
 !www/ch-epr-term/publish.ini
+!www/ch-epr-term/history.html
 
 temp/**
