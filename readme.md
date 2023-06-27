@@ -2,6 +2,10 @@
 
 Background info see [Process for Publishing a FHIR Implementation Guide (for non-HL7 IGs)](https://confluence.hl7.org/pages/viewpage.action?pageId=104580055).
 
+1. Use gihub pages as a backup for the published ig's hl7ch.github.ch, we use this as a subfolder in ig-release 
+2. Publish the guide from the local system to the github pages folder
+3. Sync github pages folder to google drive (which fhir.ch servs up the pages from including rediredcts)
+4. Update github apges
 
 ## Repo ch-xyz (implementation guide)
 
@@ -79,7 +83,6 @@ wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher
 ```
 gsutil -m rsync -r ./hl7ch.github.io/ig/[ch-xyz] gs://fhir-ch-www/ig/[ch-xyz]
 gsutil -m cp ./hl7ch.github.io/*.json gs://fhir-ch-www/
-gsutil -m cp ./hl7ch.github.io/*.json gs://fhir-ch-www/
 gsutil -m cp ./hl7ch.github.io/*.xml gs://fhir-ch-www/
 ```
 
@@ -91,6 +94,16 @@ gsutil -m cp ./hl7ch.github.io/ig/c[ch-xyz]/* gs://fhir-ch-www/ig/[ch-xyz]/
 * http://fhir.ch/ig/[ch-xyz]/index.html
 * http://fhir.ch/ig/[ch-xyz]/[version]/index.html
 * http://fhir.ch/ig/[ch-xyz]/history.html   (needs to be copied manually sometimes?)
+
+
+12. Update github packages
+
+```
+cd hl7ch.github.io 
+git add .
+git commit -m 'ch-xyz version'
+git push   
+```
 
 ## Repo k8s-fhir.ch
 13. Update fhir.ch (if it is the first publication)
