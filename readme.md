@@ -37,6 +37,9 @@ Note: The title and the parameter release label are displayed at the top of the 
 }
 ```
 
+verify that package-list is updated with the latest published version (might be that the latest version is in www/[ch-xyz])
+http://fhir.ch/ig/[ch-xyz]/package-list.json
+
 3. Build your IG local (for some checks).
 
 4. Verify also that the current version of the implementation guide is working in the CI build, check http://build.fhir.org/ig/\[githubrepo\]/\[ch-xyz\]/index.html.
@@ -74,29 +77,20 @@ wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher
 
 10.  For every IG publication:
 ```
-gsutil rsync -r www/[ch-xyz]/[version] gs://fhir-ch-www/ig/[ch-xyz]
-gsutil rsync -r www/[ch-xyz]/[version] gs://fhir-ch-www/ig/[ch-xyz]/[version]
+gsutil -m rsync -r ./hl7ch.github.io/ig/[ch-xyz] gs://fhir-ch-www/ig/[ch-xyz]
+gsutil -m cp ./hl7ch.github.io/*.json gs://fhir-ch-www/
+gsutil -m cp ./hl7ch.github.io/*.json gs://fhir-ch-www/
+gsutil -m cp ./hl7ch.github.io/*.xml gs://fhir-ch-www/
 ```
-**Workaround:**   
-Add `"current":true` for published version in package-list.json.   
-Update history.html manually: update the included package-list.json   .
-```
-gsutil cp www/[ch-xyz]/history.html gs://fhir-ch-www/ig/[ch-xyz]
-```
+
+looks like the main directory is not overwritten? try also
+gsutil -m cp ./hl7ch.github.io/ig/c[ch-xyz]/* gs://fhir-ch-www/ig/[ch-xyz]/
+
 
 11. Check the outputs, it might take a while due to caching issues:
 * http://fhir.ch/ig/[ch-xyz]/index.html
 * http://fhir.ch/ig/[ch-xyz]/[version]/index.html
-* http://fhir.ch/ig/[ch-xyz]/history.html
-
-12. Update the package registry
-* To be able to specify the IG's package for [validation](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator#UsingtheFHIRValidator-Validatingagainstanimplementationguide), the IG package must be added to the [FHIR package registry](https://registry.fhir.org/). To do this update the file **ig-release\www\package-feed.xml** ([validate your feed](https://validator.w3.org/feed/)), see also [here](https://registry.fhir.org/submit). You can take the entry from www\publication-feed.xml and adapt it according to the existing ones, please be sure to add the package version to it.
-
-```
-gsutil cp www/package-feed.xml gs://fhir-ch-www/
-```
-
-* Check: https://www.fhir.ch/package-feed.xml 
+* http://fhir.ch/ig/[ch-xyz]/history.html   (needs to be copied manually sometimes?)
 
 ## Repo k8s-fhir.ch
 13. Update fhir.ch (if it is the first publication)
