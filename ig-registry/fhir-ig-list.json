@@ -2253,100 +2253,6 @@
       ]
     },
     {
-      "name": "Swiss EPR Metadata (CH-EPR-TERM)",
-      "category": "National Base",
-      "npm-name": "ch.fhir.ig.ch-epr-term",
-      "description": "Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland",
-      "authority": "HL7 Switzerland",
-      "country": "ch",
-      "history": "http://fhir.ch/ig/ch-epr-term/history.html",
-      "canonical": "http://fhir.ch/ig/ch-epr-term",
-      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-epr-term",
-      "editions": [
-        {
-          "name": "STU",
-          "ig-version": "2.0.8",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.8",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.8"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.7",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.7",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.7"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.6",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.6",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.6"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.5",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.5",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.5"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.4",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.4",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.4"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.3",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.3",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.3"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.2",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.2"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.1",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.1"
-        },
-        {
-          "name": "STU",
-          "ig-version": "2.0.0",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.0"
-        }
-      ]
-    },
-    {
       "name": "Swiss Cancer Registration Implementation Guide (CH-CRL)",
       "category": "National Base",
       "npm-name": "ch.fhir.ig.ch-crl",
@@ -4228,6 +4134,31 @@
             "4.0.1"
           ],
           "url": "http://fhir.ch/ig/ch-vacd/0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "CH EPR Term (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-epr-term",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-epr-term/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-epr-term",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-epr-term",
+      "editions": [
+        {
+          "name": "STU",
+          "ig-version": "2.0.9",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.9",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.9"
         }
       ]
     }

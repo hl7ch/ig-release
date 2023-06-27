@@ -24,51 +24,53 @@ Note: The title and the parameter release label are displayed at the top of the 
 2. Create/update the file **publication-request.json** in the IG root folder, see https://confluence.hl7.org/display/FHIR/IG+Publication+Request+Documentation.   
    **Workaround:** At the moment it works only with `"milestone" : false`.
 
-
-3. Create/update the file **publish.ini** in the IG root folder, like this:
-```
-[website]
-style=fhir.layout
-server=apache
-url=http://fhir.ch/ig/[ch-xyz]
-org=HL7 Switzerland
-no-registry=1
-owner = hl7ch
-
-layout=ch.fhir.ig.[ch-xyz]|http://fhir.ch/ig/[ch-xyz]
-
-[feeds]
-package=package-feed.xml
-publication=publication-feed.xml
+```json
+{
+  "package-id" : "ch.fhir.ig.ch-epr-term",
+  "version" : "2.0.9",
+  "path" : "http://fhir.ch/ig/ch-epr-term/2.0.9",
+  "mode" : "milestone",
+  "status" : "trial-use",
+  "sequence" : "STU",
+  "desc" : "Version 202306.1-stable, see https://ehealthsuisse.art-decor.org/ch-epr-html-20230608T154548/project.html for changelog",
+  "first": false
+}
 ```
 
-4. Build your IG local (for some checks).
+3. Build your IG local (for some checks).
 
-5. Verify also that the current version of the implementation guide is working in the CI build, check http://build.fhir.org/ig/\[githubrepo\]/\[ch-xyz\]/index.html.
+4. Verify also that the current version of the implementation guide is working in the CI build, check http://build.fhir.org/ig/\[githubrepo\]/\[ch-xyz\]/index.html.
 
-6. Set a [tag in GitHub](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [create a release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release)
+5. Set a [tag in GitHub](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [create a release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release)
 ```
 git tag -a v0.1.0 -m "published version 0.1.0 on yyyy-mm-dd"
 ```
+
 ```
 git push origin v0.1.0
 ```
 
 ## Repo ig-release
 
+6. Sync up github pages
+
+```
+cd hl7ch.github.io
+git pull
+```
+
+if for the first time:
+
+```
+git clone https://github.com/hl7ch/hl7ch.github.io.git
+```
+
 7. Download the latest version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag:
 ```
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
 ```
-**Workaround:** Does not work at the moment, had to adapt the IG publisher.
 
-6. Copy the file **publication-request.json** from the repo ch-xyz to the www folder in this repo.
-7. Copy the file **publish.ini** from the repo ch-xyz to the www/ch-xyz in this repo.
-
-8. **Workaround:** To get a correct publication box in the build process you have to remove `"current":true` from the latest published version in the package-list.json.
-
-9. Run the IG Publisher assuming that your IG is on the same directory level as this project -> adapt and use one of the existing .cmd or .sh.
-   **Note:** Create a folder **temp** and set it as parameter.
+8. Run the IG Publisher assuming that your IG is on the same directory level as this project -> adapt and use one of the existing .cmd or .sh.
 
 10.  For every IG publication:
 ```

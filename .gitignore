@@ -28,3 +28,6 @@ www/ch-epr-term/**
 !www/ch-epr-term/history.html
 
 temp/**
+
+buildtmp
+.DS_Store
