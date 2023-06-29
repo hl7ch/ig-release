@@ -2278,16 +2278,16 @@
       "country": "ch",
       "history": "http://fhir.ch/ig/ch-orf/history.html",
       "canonical": "http://fhir.ch/ig/ch-orf",
-      "ci-build": "http://build.fhir.org/ig/ahdis/ch-orf/index.html",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-orf",
       "editions": [
         {
-          "name": "STU",
-          "ig-version": "0.9.1",
-          "package": "ch.fhir.ig.ch-orf#0.9.1",
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "ch.fhir.ig.ch-orf#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-orf/0.9.1"
+          "url": "http://fhir.ch/ig/ch-orf/2.0.0-ballot"
         }
       ]
     },

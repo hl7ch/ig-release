@@ -67,7 +67,7 @@ http://fhir.ch/ig/[ch-xyz]/package-list.json
 ```
 git tag -a v0.1.0 -m "published version 0.1.0 on yyyy-mm-dd"
 ```
-git tag -a v4.0.0-ballot -m "published version 4.0.0-ballot on 2023-06-29"
+git tag -a v2.0.0-ballot -m "published version 2.0.0-ballot on 2023-06-29"
 
 
 ```
