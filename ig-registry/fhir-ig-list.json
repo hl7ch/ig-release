@@ -2325,76 +2325,13 @@
       "ci-build": "http://build.fhir.org/ig/hl7ch/ch-emed",
       "editions": [
         {
-          "name": "STU 3",
-          "ig-version": "3.0.0",
-          "package": "ch.fhir.ig.ch-emed#3.0.0",
+          "name": "STU 4 Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "ch.fhir.ig.ch-emed#4.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-emed/3.0.0"
-        },
-        {
-          "name": "STU 3",
-          "ig-version": "2.1.0",
-          "package": "ch.fhir.ig.ch-emed#2.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-emed/2.1.0"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "ch.fhir.ig.ch-emed#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-emed/2.0.0"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "1.0.0",
-          "package": "ch.fhir.ig.ch-emed#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-emed/1.0.0"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "ch.fhir.ig.ch-emed#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-emed/1.0.0"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "0.2.0",
-          "package": "ch.fhir.ig.ch-emed#0.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-emed/0.2.0"
-        },
-        {
-          "name": "DSTU 1",
-          "ig-version": "0.1.1",
-          "package": "ch.fhir.ig.ch-emed#0.1.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-emed/0.1.1"
-        },
-        {
-          "name": "DSTU 1",
-          "ig-version": "0.1.0",
-          "package": "ch.fhir.ig.ch-emed#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-emed/0.1.0"
+          "url": "http://fhir.ch/ig/ch-emed/4.0.0-ballot"
         }
       ]
     },
@@ -4037,58 +3974,13 @@
       "ci-build": "http://build.fhir.org/ig/hl7ch/ch-vacd",
       "editions": [
         {
-          "name": "STU 3",
-          "ig-version": "3.0.0",
-          "package": "ch.fhir.ig.ch-vacd#3.0.0",
+          "name": "STU 4 Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "ch.fhir.ig.ch-vacd#4.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-vacd/3.0.0"
-        },
-        {
-          "name": "STU 3",
-          "ig-version": "2.1.0",
-          "package": "ch.fhir.ig.ch-vacd#2.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-vacd/2.1.0"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "ch.fhir.ig.ch-vacd#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-vacd/2.0.0"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "1.0.0",
-          "package": "ch.fhir.ig.ch-vacd#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-vacd/1.0.0"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "ch.fhir.ig.ch-vacd#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-vacd/1.0.0"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "0.1.0",
-          "package": "ch.fhir.ig.ch-vacd#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ch/ig/ch-vacd/0.1.0"
+          "url": "http://fhir.ch/ig/ch-vacd/4.0.0-ballot"
         }
       ]
     },
@@ -4114,6 +4006,31 @@
             "4.0.1"
           ],
           "url": "http://fhir.ch/ig/ch-epr-term/2.0.9"
+        }
+      ]
+    },
+    {
+      "name": "CH-AllergyIntolerance (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-allergyintolerance",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-allergyintolerance/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-allergyintolerance",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-allergyintolerance",
+      "editions": [
+        {
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "ch.fhir.ig.ch-allergyintolerance#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-allergyintolerance/2.0.0-ballot"
         }
       ]
     }

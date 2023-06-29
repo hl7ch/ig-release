@@ -19,7 +19,7 @@ Note: The title and the parameter release label are displayed at the top of the 
    ``` xml
    <parameter>
      <code value="releaselabel"/>
-     <value value="STU1 Ballot"/>
+     <value value="ballot"/>
    </parameter>
    ```
    After the publication change the value back to: `<value value="CI-Build"/>`
@@ -102,7 +102,7 @@ wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher
 10.  For every IG publication:
 
 ```
-./fhir-ch-www.sh ch-emed 4.0.0-ballot
+./fhir-ch-www.sh ch-vacd 4.0.0-ballot
 ```
 
 11. Check the outputs, it might take a while due to caching issues:

@@ -13,6 +13,17 @@
       "current" : true
     },
     {
+      "version" : "4.0.0-ballot",
+      "date" : "2023-06-29",
+      "path" : "http://fhir.ch/ig/ch-vacd/4.0.0-ballot",
+      "status" : "trial-use",
+      "sequence" : "STU 4",
+      "fhirversion" : "4.0.1",
+      "desc" : "HL7 Switzerland STU 4",
+      "changes" : "changelog.html",
+      "current" : true
+    },
+    {
       "version" : "3.0.0",
       "path" : "http://fhir.ch/ig/ch-vacd/3.0.0",
       "status" : "trial-use",
@@ -20,8 +31,7 @@
       "fhirversion" : "4.0.1",
       "date" : "2022-12-21",
       "desc" : "HL7 Switzerland STU 3",
-      "changes" : "changelog.html",
-      "current" : true
+      "changes" : "changelog.html"
     },
     {
       "version" : "2.1.0",
