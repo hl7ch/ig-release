@@ -24,6 +24,21 @@ Note: The title and the parameter release label are displayed at the top of the 
    ```
    After the publication change the value back to: `<value value="CI-Build"/>`
 
+or in sushi-config.yaml
+date: 2023-06-29
+version: 4.0.0-ballot
+releaselabel: ballot
+license: CC0-1.0
+verify correct terminology dependency
+dependencies:
+  hl7.terminology: 5.1.0
+
+add STU note in index.md along the lines into the stu-note:
+
+```
+This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/) until September 30th, 2023 midnight.
+Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments. 
+```
 
 2. Create/update the file **publication-request.json** in the IG root folder, see https://confluence.hl7.org/display/FHIR/IG+Publication+Request+Documentation.   
    **Workaround:** At the moment it works only with `"milestone" : false`.
@@ -52,9 +67,11 @@ http://fhir.ch/ig/[ch-xyz]/package-list.json
 ```
 git tag -a v0.1.0 -m "published version 0.1.0 on yyyy-mm-dd"
 ```
+git tag -a v4.0.0-ballot -m "published version 4.0.0-ballot on 2023-06-29"
+
 
 ```
-git push origin v0.1.0
+git push origin v4.0.0-ballot
 ```
 
 ## Repo ig-release
@@ -77,18 +94,16 @@ git clone https://github.com/hl7ch/hl7ch.github.io.git
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
 ```
 
-8. Run the IG Publisher assuming that your IG is on the same directory level as this project -> adapt and use one of the existing .cmd or .sh.
+8. Run the IG Publisher assuming that your IG is on the same directory level as this project 
+
+./publish.sh [ch-xyz]
+
 
 10.  For every IG publication:
-```
-gsutil -m rsync -r ./hl7ch.github.io/ig/[ch-xyz] gs://fhir-ch-www/ig/[ch-xyz]
-gsutil -m cp ./hl7ch.github.io/*.json gs://fhir-ch-www/
-gsutil -m cp ./hl7ch.github.io/*.xml gs://fhir-ch-www/
-```
 
-looks like the main directory is not overwritten? try also
-gsutil -m cp ./hl7ch.github.io/ig/c[ch-xyz]/* gs://fhir-ch-www/ig/[ch-xyz]/
-
+```
+./fhir-ch-www.sh ch-emed 4.0.0-ballot
+```
 
 11. Check the outputs, it might take a while due to caching issues:
 * http://fhir.ch/ig/[ch-xyz]/index.html

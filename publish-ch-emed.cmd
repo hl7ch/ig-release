@@ -1,1 +1,0 @@
-java -jar -Dfile.encoding=UTF-8 -Xms3550m -Xmx3550m publisher.jar -go-publish -source C:\Users\micha\Documents\GitHub\ch-emed -destination C:\Users\micha\Documents\GitHub\ig-release\www -registry ig-registry/fhir-ig-list.json -history ig-history -temp C:\Users\micha\Documents\GitHub\ig-release\temp 
