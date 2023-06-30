@@ -4130,6 +4130,31 @@
           "url": "http://fhir.ch/ig/ch-atc/3.2.0-ballot"
         }
       ]
+    },
+    {
+      "name": "CH EPR mHealth (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-epr-mhealth",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-epr-mhealth/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-epr-mhealth",
+      "ci-build": "http://build.fhir.org/ig/ehealthsuisse/ch-epr-mhealth",
+      "editions": [
+        {
+          "name": "Draft Ballot",
+          "ig-version": "3.0.0-ballot",
+          "package": "ch.fhir.ig.ch-epr-mhealth#3.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-mhealth/3.0.0-ballot"
+        }
+      ]
     }
   ]
 }
