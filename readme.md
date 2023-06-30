@@ -67,11 +67,11 @@ http://fhir.ch/ig/[ch-xyz]/package-list.json
 ```
 git tag -a v0.1.0 -m "published version 0.1.0 on yyyy-mm-dd"
 ```
-git tag -a v2.0.0-ballot -m "published version 2.0.0-ballot on 2023-06-29"
+git tag -a v3.2.0-ballot -m "published version 3.2.0-ballot on 2023-06-30"
 
 
 ```
-git push origin v4.0.0-ballot
+git push origin v3.2.0-ballot
 ```
 
 ## Repo ig-release
@@ -123,3 +123,16 @@ git push
 ## Repo k8s-fhir.ch
 13. Update fhir.ch (if it is the first publication)
 * If the published IG is not yet linked on [fhir.ch](http://fhir.ch/), add the requested links in the file **k8s-fhir.ch\fhir-ch\index.html**.
+
+
+### How to move tags ...
+
+Delete the tag on any remote before you push
+
+git push origin :refs/tags/<tagname>
+Replace the tag to reference the most recent commit
+
+git tag -fa <tagname>
+Push the tag to the remote origin
+
+git push origin --tags

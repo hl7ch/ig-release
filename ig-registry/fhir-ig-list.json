@@ -2239,6 +2239,28 @@
       ]
     },
     {
+      "name": "CH EPR PPQm",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-epr-ppqm",
+      "description": "National Integration Profile for the Swiss Electronic Patient Record",
+      "authority": "FOPH",
+      "country": "ch",
+      "history": "http://fhir.ch/ig/ch-epr-ppqm/history.html",
+      "canonical": "http://fhir.ch/ig/ch-epr-ppqm",
+      "ci-build": "http://build.fhir.org/ig/ehealthsuisse/ch-epr-ppqm",
+      "editions": [
+        {
+          "name": "Draft Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "ch.fhir.ig.ch-epr-ppqm#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-epr-ppqm/2.0.0-ballot"
+        }
+      ]
+    },
+    {
       "name": "Audit Trail Consumption (CH-ATC)",
       "category": "National Base",
       "npm-name": "ch.fhir.ig.atc",
@@ -4031,6 +4053,81 @@
             "4.0.1"
           ],
           "url": "http://fhir.ch/ig/ch-allergyintolerance/2.0.0-ballot"
+        }
+      ]
+    },
+    {
+      "name": "CH LAB-Order (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-lab-order",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-lab-order/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-lab-order",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-lab-order",
+      "editions": [
+        {
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "ch.fhir.ig.ch-lab-order#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-lab-order/2.0.0-ballot"
+        }
+      ]
+    },
+    {
+      "name": "CH eTOC (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-etoc",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-etoc/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-etoc",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-etoc",
+      "editions": [
+        {
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "ch.fhir.ig.ch-etoc#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-etoc/2.0.0-ballot"
+        }
+      ]
+    },
+    {
+      "name": "CH ATC (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-atc",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-atc/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-atc",
+      "ci-build": "http://build.fhir.org/ig/ehealthsuisse/ch-atc",
+      "editions": [
+        {
+          "name": "Draft Ballot",
+          "ig-version": "3.2.0-ballot",
+          "package": "ch.fhir.ig.ch-atc#3.2.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-atc/3.2.0-ballot"
         }
       ]
     }
