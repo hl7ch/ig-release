@@ -24,14 +24,14 @@ Note: The title and the parameter release label are displayed at the top of the 
    ```
    After the publication change the value back to: `<value value="CI-Build"/>`
 
-or in sushi-config.yaml
-date: 2023-06-29
+or in sushi-config.yaml    
+date: 2023-06-29    
 version: 4.0.0-ballot
-releaselabel: ballot
-license: CC0-1.0
-verify correct terminology dependency
-dependencies:
-  hl7.terminology: 5.1.0
+releaselabel: ballot    
+license: CC0-1.0    
+verify correct terminology dependency    
+dependencies:    
+  hl7.terminology: 5.1.0    
 
 add STU note in index.md along the lines into the stu-note:
 
