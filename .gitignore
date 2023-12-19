@@ -1,4 +1,5 @@
 publisher.jar
+publisher.jar:Zone.Identifier
 www/ig-build-zips/**
 www/publication-request.json
 
