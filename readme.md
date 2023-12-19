@@ -9,6 +9,8 @@ Background info see [Process for Publishing a FHIR Implementation Guide (for non
 
 ## Repo ch-xyz (implementation guide)
 
+Navigate to the IG repo:
+
 ```
 cd ch-xyz
 ```
@@ -30,7 +32,7 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 ```
 
 3. Create/update the file **publication-request.json** in the IG root folder, see https://confluence.hl7.org/display/FHIR/IG+Publication+Request+Documentation.   
-   * after the publication rename the file to publication-request.bak.json
+   * after the publication rename the file to publication-request.json.bak
 
 ```json
 {
@@ -64,6 +66,7 @@ and [create a release](https://docs.github.com/en/repositories/releasing-project
 
 ## Repo ig-release
 
+Navigate to the ig-release repo:
 ```
 cd ..
 cd ig-release
