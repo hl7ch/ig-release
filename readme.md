@@ -26,7 +26,7 @@ Note: The title and the parameter release label are displayed at the top of the 
 
 or in sushi-config.yaml    
 date: 2023-06-29    
-version: 4.0.0-ballot
+version: 4.0.0-ballot     
 releaselabel: ballot    
 license: CC0-1.0    
 verify correct terminology dependency    
