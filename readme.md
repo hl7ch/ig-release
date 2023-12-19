@@ -11,7 +11,7 @@ Background info see [Process for Publishing a FHIR Implementation Guide (for non
 
 1. Update the IG file **ch.fhir.ig.[ch-xyz].xml** or **sushi-config.yaml**.   
 Note: The title and the parameter release label are displayed at the top of the published website.
-* `<version value="0.1.0"/>`
+* `<version value="0.1.0"/>`   
    After the publication change the value to: `<version value="{next-proposed-version}-cibuild"/>`
 * `<date value="2022-12-20"/>`
 * `<title value="IG XYZ (R4)"/>`
