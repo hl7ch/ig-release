@@ -118,7 +118,14 @@ git commit -m 'ch-xyz version'
 git push   
 ```
 
-May commit and push the changes in ig-registry/fhir-ig-list.json
+and update ig-release
+
+```
+cd ..
+git add .
+git commit -m 'update after publication ch-xyz version'
+git push   
+```
 
 ## Repo k8s-fhir.ch
 14. Update fhir.ch (if it is the first publication)
