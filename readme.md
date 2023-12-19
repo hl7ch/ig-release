@@ -5,7 +5,7 @@ Background info see [Process for Publishing a FHIR Implementation Guide (for non
 1. Use gihub pages as a backup for the published ig's hl7ch.github.ch, we use this as a subfolder in ig-release 
 2. Publish the guide from the local system to the github pages folder
 3. Sync github pages folder to google drive (which fhir.ch servs up the pages from including rediredcts)
-4. Update github apges
+4. Update github pages
 
 ## Repo ch-xyz (implementation guide)
 
