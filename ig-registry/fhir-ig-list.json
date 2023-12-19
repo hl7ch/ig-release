@@ -4022,12 +4022,12 @@
       "editions": [
         {
           "name": "STU",
-          "ig-version": "2.0.9",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.9",
+          "ig-version": "2.0.10",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.10",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.9"
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.10"
         }
       ]
     },
