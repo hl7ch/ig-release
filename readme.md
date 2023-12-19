@@ -89,7 +89,7 @@ if for the first time:
 git clone https://github.com/hl7ch/hl7ch.github.io.git
 ```
 
-7. Download the latest version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag:
+7. Download the latest version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag (in the ig-release folder):
 ```
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
 ```
