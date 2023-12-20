@@ -141,8 +141,10 @@ git push
 14. Check if the new entry is added in the package feed:   
 https://fhir.ch/package-feed.xml
 
+15. Don't forget to set the mentioned things in the repo ch-xyz back to the ci-build.
+
 ## Repo k8s-fhir.ch
-15. Update fhir.ch (if it is the first publication)
+16. Update fhir.ch (if it is the first publication)
 * If the published IG is not yet linked on [fhir.ch](http://fhir.ch/), add the requested links in the file **k8s-fhir.ch\fhir-ch\index.html**.
 
 
