@@ -4155,6 +4155,31 @@
           "url": "http://fhir.ch/ig/ch-epr-mhealth/3.0.0-ballot"
         }
       ]
+    },
+    {
+      "name": "CH LAB-Report (R4)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-lab-report",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.ch/ig/ch-lab-report/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ch/ig/ch-lab-report",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-lab-report",
+      "editions": [
+        {
+          "name": "DSTU 1 Draft",
+          "ig-version": "0.1.0",
+          "package": "ch.fhir.ig.ch-lab-report#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-lab-report/0.1.0"
+        }
+      ]
     }
   ]
 }
