@@ -2250,13 +2250,13 @@
       "ci-build": "http://build.fhir.org/ig/ehealthsuisse/ch-epr-ppqm",
       "editions": [
         {
-          "name": "Draft Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "ch.fhir.ig.ch-epr-ppqm#2.0.0-ballot",
+          "name": "DSTU 2 Draft",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.ch-epr-ppqm#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-epr-ppqm/2.0.0-ballot"
+          "url": "http://fhir.ch/ig/ch-epr-ppqm/2.0.0"
         }
       ]
     },
