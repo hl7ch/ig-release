@@ -4046,13 +4046,13 @@
       "ci-build": "http://build.fhir.org/ig/hl7ch/ch-allergyintolerance",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "ch.fhir.ig.ch-allergyintolerance#2.0.0-ballot",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.ch-allergyintolerance#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-allergyintolerance/2.0.0-ballot"
+          "url": "http://fhir.ch/ig/ch-allergyintolerance/2.0.0"
         }
       ]
     },

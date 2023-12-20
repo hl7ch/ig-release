@@ -51,6 +51,8 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 4. Verify (in the browser) that package-list.json is updated with the latest published version (might be that the latest version is in www/[ch-xyz]):   
 http://fhir.ch/ig/[ch-xyz]/package-list.json
 
+(If not, update the file on the server.)
+
 5. Build your IG local (for some checks).
 
 6. Verify also that the current version of the implementation guide is working in the CI build:   
