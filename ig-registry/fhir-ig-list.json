@@ -3996,13 +3996,13 @@
       "ci-build": "http://build.fhir.org/ig/hl7ch/ch-vacd",
       "editions": [
         {
-          "name": "STU 4 Ballot",
-          "ig-version": "4.0.0-ballot",
-          "package": "ch.fhir.ig.ch-vacd#4.0.0-ballot",
+          "name": "STU 4",
+          "ig-version": "4.0.0",
+          "package": "ch.fhir.ig.ch-vacd#4.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-vacd/4.0.0-ballot"
+          "url": "http://fhir.ch/ig/ch-vacd/4.0.0"
         }
       ]
     },

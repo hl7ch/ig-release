@@ -48,17 +48,12 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 }
 ```
 
-4. Verify (in the browser) that package-list.json is updated with the latest published version (might be that the latest version is in www/[ch-xyz]):   
-http://fhir.ch/ig/[ch-xyz]/package-list.json
+4. Build your IG local (for some checks).
 
-(If not, update the file on the server.)
-
-5. Build your IG local (for some checks).
-
-6. Verify also that the current version of the implementation guide is working in the CI build:   
+5. Verify also that the current version of the implementation guide is working in the CI build:   
 http://build.fhir.org/ig/\[githubrepo\]/\[ch-xyz\]/index.html.
 
-7. [Set a tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) 
+6. [Set a tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) 
 ```
 git tag -a v4.0.0 -m "published version 4.0.0 on 2023-12-19"   
 git push origin v4.0.0
@@ -74,7 +69,7 @@ cd ..
 cd ig-release
 ```
 
-8. Sync up github pages
+7. Sync up github pages
 
 ```
 cd hl7ch.github.io
@@ -87,20 +82,31 @@ if for the first time:
 git clone https://github.com/hl7ch/hl7ch.github.io.git
 ```
 
-9. Download the latest version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag (in the ig-release folder):
+8. Download the latest version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag (in the ig-release folder):
 
 ```
 cd ..
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
 ```
 
-10. Run the IG Publisher assuming that your IG is on the same directory level as this project: 
+9. Run the IG Publisher assuming that your IG is on the same directory level as this project: 
 
 ```
 ./publish.sh [ch-xyz]
 ```
 
 Check the local output (incl. automatically filled out publication box) in hl7ch.github.io/ig/ch-xyz/4.0.0
+
+10. Verify that package-list.json is updated:   
+ig-release/hl7ch.github.io/ig/\[ch-xyz\]/package-list.json
+
+If not, please do following updates:   
+* ig-release/hl7ch.github.io/ig/\[ch-xyz\]/package-list.json -> add missing entry
+* ig-release/hl7ch.github.io/ig/\[ch-xyz\]/history.html -> add the updated content from package-list.json (https://jsontostring.com/convert-json-to-one-line/)
+
+_It didn't work automatically for following IG's during the last publication on 2023-12-20:_
+* _ch-allergyintolerance_
+* _ch-vacd_
 
 11.  For every IG publication:
 
@@ -132,8 +138,11 @@ git commit -m 'update after publication ch-xyz version'
 git push   
 ```
 
+14. Check if the new entry is added in the package feed:   
+https://fhir.ch/package-feed.xml
+
 ## Repo k8s-fhir.ch
-14. Update fhir.ch (if it is the first publication)
+15. Update fhir.ch (if it is the first publication)
 * If the published IG is not yet linked on [fhir.ch](http://fhir.ch/), add the requested links in the file **k8s-fhir.ch\fhir-ch\index.html**.
 
 
