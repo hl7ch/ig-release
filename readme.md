@@ -82,14 +82,14 @@ if for the first time:
 git clone https://github.com/hl7ch/hl7ch.github.io.git
 ```
 
-8. Download the latest version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag (in the ig-release folder):
+8. Download the latest version of the [IG Publisher](https://github.com/HL7/fhir-ig-publisher/releases) on a fresh clone with the publisher flag (in the ig-release folder). (Delete first the last one from an earlier publication if you have one.):
 
 ```
 cd ..
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
 ```
 
-9. Run the IG Publisher assuming that your IG is on the same directory level as this project: 
+9. Run the IG Publisher assuming that your IG is on the same directory level as this project (this step uses the output folder from the IG ch-xyz, make sure that is up to date): 
 
 ```
 ./publish.sh [ch-xyz]
